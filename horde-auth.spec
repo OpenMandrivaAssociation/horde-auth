@@ -13,7 +13,7 @@ Url:		http://pear.horde.org/index.php?package=%{prj}
 Source0:	%{prj}-%{version}.tgz
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-build
-PreReq:         %{_bindir}/pear
+Requires(pre):  %{_bindir}/pear
 Requires:	horde-framework
 Requires:	horde-datatree
 Requires:	horde-form
@@ -27,10 +27,9 @@ Requires:	php-gettext
 # available with openSUSE they are commented out
 Suggests:	php-sasl
 Suggests:	php-pam_auth
-BuildRequires:	horde-framework
 BuildRequires:	php-pear
 BuildRequires:  php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}-build
+
 
 %description
 The Auth:: class provides a common abstracted interface into the various backends for the Horde authentication system.
