@@ -5,7 +5,7 @@
 
 Name:		horde-auth
 Version:	0.1.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Horde Authentication API
 License:	LGPL
 Group:		Networking/Mail
