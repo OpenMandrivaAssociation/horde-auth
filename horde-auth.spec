@@ -23,8 +23,7 @@ Requires:	horde-history
 Requires:	kolab-server
 Requires:	php-pear
 Requires:	php-gettext
-# Those 2 packages are listed as optional dependencies, as they are not
-# available with openSUSE they are commented out
+Requires:	php-pear-Net_IMSP
 Suggests:	php-sasl
 Suggests:	php-pam_auth
 BuildRequires:	php-pear
