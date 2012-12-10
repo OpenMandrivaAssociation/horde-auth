@@ -119,3 +119,27 @@ fi
 %{peardir}/Horde/Auth/smbclient.php
 %{peardir}/Horde/Auth/sql.php
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.1-4mdv2011.0
++ Revision: 560373
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.1-3mdv2010.1
++ Revision: 524824
+- increased rel version
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel version
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.1-2mdv2010.1
++ Revision: 512488
+- bumped up release
+- added Requires:  php-pear-Net_IMSP
+
+* Sat Feb 27 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.1.1-1mdv2010.1
++ Revision: 512256
+- replaced PreRequ with Requires(pre)
+- import horde-auth
+
+
