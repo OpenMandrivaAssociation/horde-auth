@@ -5,7 +5,7 @@
 
 Name:		horde-auth
 Version:	0.1.1
-Release:	%mkrel 4
+Release:	5
 Summary:	Horde Authentication API
 License:	LGPL
 Group:		Networking/Mail
@@ -31,7 +31,8 @@ BuildRequires:  php-pear-channel-horde
 
 
 %description
-The Auth:: class provides a common abstracted interface into the various backends for the Horde authentication system.
+The Auth:: class provides a common abstracted interface into the various
+backends for the Horde authentication system.
  This package contains implementations for:
  * A Horde Application
  * Composite Auth Driver
